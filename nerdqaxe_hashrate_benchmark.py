@@ -171,10 +171,10 @@ def restart_system():
         # Restart here as some bitaxes get unstable with bad settings
         # If not an interrupt, wait 900s for system stabilization as some bitaxes are slow to ramp up
         if not is_interrupt:
-            print(YELLOW + "Applying new settings and waiting 900s for system stabilization..." + RESET)
+            print(YELLOW + "Applying new settings and waiting 1200s for system stabilization..." + RESET)
             response = requests.post(f"{bitaxe_ip}/api/system/restart", timeout=10)
             response.raise_for_status()  # Raise an exception for HTTP errors
-            time.sleep(900)  # Allow 900s time for the system to restart and start hashing
+            time.sleep(1200)  # Allow 1200s time for the system to restart and start hashing
         else:
             print(YELLOW + "Applying final settings..." + RESET)
             response = requests.post(f"{bitaxe_ip}/api/system/restart", timeout=10)
