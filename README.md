@@ -65,7 +65,7 @@ python nerdqaxe_hashrate_benchmark.py <nerdqaxe_ip>
 ```
 
 Optional parameters:
-- `-v, --voltage`: Initial voltage in mV (default: 1150)
+- `-v, --voltage`: Initial voltage in mV (default: 1120)
 - `-f, --frequency`: Initial frequency in MHz (default: 500)
 
 Example:
