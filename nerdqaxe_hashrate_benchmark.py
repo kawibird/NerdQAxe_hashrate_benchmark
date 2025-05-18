@@ -338,7 +338,7 @@ try:
     
     # Add disclaimer
     print(RED + "\nDISCLAIMER:" + RESET)
-    print("This tool will stress test your Bitaxe by running it at various voltages and frequencies.")
+    print("This tool will stress test your NerdQaxe++ by running it at various voltages and frequencies.")
     print("While safeguards are in place, running hardware outside of standard parameters carries inherent risks.")
     print("Use this tool at your own risk. The author(s) are not responsible for any damage to your hardware.")
     print("\nNOTE: Ambient temperature significantly affects these results. The optimal settings found may not")
