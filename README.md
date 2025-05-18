@@ -29,7 +29,7 @@ A Python-based benchmarking tool for optimizing NerdQaxe mining performance by t
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/mrv777/nerdqaxe_hashrate_benchmark.git
+git clone https://github.com/kawibird/NerdQAxe_hashrate_benchmark.git
 cd nerdqaxe_hashrate_benchmark
 ```
 
@@ -90,20 +90,20 @@ docker run --rm nerdqaxe-benchmark 192.168.2.26 -v 1200 -f 550
 
 The script includes several configurable parameters:
 
-- Maximum chip temperature: 66°C
-- Maximum VR temperature: 86°C
-- Maximum allowed voltage: 1400mV
-- Minimum allowed voltage: 1000mV
+- Maximum chip temperature: 68°C
+- Maximum VR temperature: 85°C
+- Maximum allowed voltage: 1300mV
+- Minimum allowed voltage: 1120mV
 - Maximum allowed frequency: 1200MHz
-- Maximum power consumption: 40W
-- Minimum allowed frequency: 400MHz
-- Minimum input voltage: 4800mV
-- Maximum input voltage: 5500mV
-- Benchmark duration: 10 minutes
+- Maximum power consumption: 100W
+- Minimum allowed frequency: 500MHz
+- Minimum input voltage: 11600mV
+- Maximum input voltage: 12500mV
+- Benchmark duration: 20 minutes
 - Sample interval: 15 seconds
 - **Minimum required samples: 7** (for valid data processing)
-- Voltage increment: 20mV
-- Frequency increment: 25MHz
+- Voltage increment: 10mV
+- Frequency increment: 20MHz
 
 ## Output
 
