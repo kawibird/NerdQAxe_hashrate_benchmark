@@ -39,11 +39,11 @@ frequency_increment = 20
 benchmark_time = 1200          # 20 minutes benchmark time
 sample_interval = 15          # 15 seconds sample interval
 max_temp = 68                 # Will stop if temperature reaches or exceeds this value
-max_allowed_voltage = 1200    # Maximum allowed core voltage
+max_allowed_voltage = 1300    # Maximum allowed core voltage
 max_allowed_frequency = 750  # Maximum allowed core frequency
 max_vr_temp = 85              # Maximum allowed voltage regulator temperature
 min_input_voltage = 11600      # Minimum allowed input voltage
-max_input_voltage = 12000      # Maximum allowed input voltage
+max_input_voltage = 12500      # Maximum allowed input voltage
 max_power = 100                # Max of 100W based on 120w PSU and on DC plug
 
 # Add these variables to the global configuration section
