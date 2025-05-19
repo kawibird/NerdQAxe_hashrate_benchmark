@@ -48,7 +48,7 @@ max_power = 100                # Max of 100W based on 120w PSU and on DC plug
 
 # Add these variables to the global configuration section
 small_core_count = None
-asic_count = None
+asic_count = 4
 
 # Add these constants to the configuration section
 min_allowed_voltage = 1120  # Minimum allowed core voltage
