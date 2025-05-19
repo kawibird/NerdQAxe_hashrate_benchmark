@@ -98,7 +98,7 @@ The script includes several configurable parameters:
 - Maximum power consumption: 100W
 - Minimum allowed frequency: 500MHz
 - Minimum input voltage: 11600mV
-- Maximum input voltage: 12500mV
+- Maximum input voltage: 12700mV
 - Benchmark duration: 20 minutes
 - Sample interval: 15 seconds
 - **Minimum required samples: 7** (for valid data processing)
@@ -123,7 +123,7 @@ The benchmark results are saved to `nerdqaxe_benchmark_results_<ip_address>.json
 
 - Automatic temperature monitoring with safety cutoff (68°C chip temp)
 - Voltage regulator (VR) temperature monitoring with safety cutoff (85°C)
-- Input voltage monitoring with minimum threshold (11600mV) and maximum threshold (12000mV)
+- Input voltage monitoring with minimum threshold (11600mV) and maximum threshold (12700mV)
 - Power consumption monitoring with safety cutoff (100W)
 - Temperature validation (must be above 5°C)
 - Graceful shutdown on interruption (Ctrl+C)
