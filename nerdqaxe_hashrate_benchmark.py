@@ -44,7 +44,7 @@ max_allowed_frequency = 750  # Maximum allowed core frequency
 max_vr_temp = 85              # Maximum allowed voltage regulator temperature
 min_input_voltage = 11600      # Minimum allowed input voltage
 max_input_voltage = 12700      # Maximum allowed input voltage
-max_power = 130                # Max of 100W based on 120w PSU and on DC plug
+max_power = 100                # Max of 100W based on 120w PSU and on DC plug
 
 # Add these variables to the global configuration section
 small_core_count = None
