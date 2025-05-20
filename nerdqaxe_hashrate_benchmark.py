@@ -91,7 +91,7 @@ def fetch_default_settings():
         default_voltage = system_info.get("coreVoltage", 1150)  # Fallback to 1150 if not found
         default_frequency = system_info.get("frequency", 600)  # Fallback to 600 if not found
         small_core_count = system_info.get("smallCoreCount", 0)
-        asic_count = system_info.get("asicCount", 0)
+        asic_count = system_info.get("asicCount", 4)
         print(GREEN + f"Current settings determined:\n"
                       f"  Core Voltage: {default_voltage}mV\n"
                       f"  Frequency: {default_frequency}MHz\n"
@@ -101,7 +101,7 @@ def fetch_default_settings():
         default_voltage = 1150
         default_frequency = 600
         small_core_count = 0
-        asic_count = 0
+        asic_count = 4
 
 # Add a global flag to track whether the system has already been reset
 system_reset_done = False
